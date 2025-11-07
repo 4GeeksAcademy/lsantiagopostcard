@@ -7,36 +7,47 @@
     <title>Instagram Post</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 </head>
 <body>
     <div class="post">
-        <div class="post-header">
-            <div class="post-user">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML5 logo">
-                <div>
-                    <h4>HTML5</h4>
-                    <p>rigoberto</p>
-                </div>
-            </div>
-            <div class="post-menu"></div>
-            </div>
-            <div class="post-img">
-                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Paisaje">
-
-            </div>            
-            <div class="post-icons">
-                <div class="left"><i class="fa-solid fa-heart"></i> <i class="fa-solid fa-comment"></i> <i class="fa-solid fa-paper-plane"></i></div>
-                  <div class="right"><i class="fa-solid fa-share"></i></div>
-           </div>
-            
-            <div class="post-likes">
-                Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100.000 others</b>
-            </div>
-            <div class="post-body">
-                lorem ipsum dolor sit amet, conssectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            
+        <div class="card mx-auto" style="max-width: 540px">
+        <div class="card-header d-flex align-items-center">
+          <i class="fa-brands fa-html5 fa-2x me-2"></i>
+          <div class="user-info">
+            <h5 class="mb-0">STARTREK</h5>
+            <p class="mb-0 text-muted">LEONARD</p>
+          </div>
+          <div class="ms-auto">
+            <p>11/06/2025</p>
+          </div>
         </div>
+        <div class="card-body p-0">
+          <img src="https://th.bing.com/th/id/OIP.m-bRxY8mvGzZNr_5n6zrxQHaFj?w=224&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+            class="card-img-top" alt="Landscape Image" />
+          <div class="p-3">
+            <div class="d-flex justify-content-between mb-2">
+              <div>
+                <i class="fa-solid fa-heart me-2"></i>
+                <i class="fa-solid fa-comments me-2"></i>
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <i class="fa-solid fa-floppy-disk"></i>
+            </div>
+            <p class="mb-1">
+              liken by <strong>Leonard, 4geek,</strong>by 10000 others
+            </p>
+            <p class="mb-0">
+              caption ENTERPRISE
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 </body>
 </html>
